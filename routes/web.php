@@ -28,6 +28,15 @@ Route::get('category', function () {
 Route::get('single-product', function () {
     return view('single-product');
 });
+Route::get('kacer', function () {
+    return view('kacer');
+});
+Route::get('anis', function () {
+    return view('anis');
+});
+Route::get('murai', function () {
+    return view('murai');
+});
 
 Auth::routes();
 

@@ -73,7 +73,7 @@
                     <div class="product-img">
                       <img
                         class="card-img"
-                        src="frontend/eiser/img/product/inspired-product/biru.jpeg"alt="" style = "height:250px;"/>
+                        src="frontend/eiser/img/product/inspired-product/kenari.jpg"alt="" style = "height:250px;"/>
                       <div class="p_icon">
                         <a href="#">
                           <i class="ti-eye"></i>
@@ -88,7 +88,7 @@
                     </div>
                     <div class="product-btm">
                       <a href="#" class="d-block">
-                        <h4>Love Bird Biru Mangsi</h4>
+                        <h4>Burung Kenari</h4>
                       </a>
                       <div class="mt-3">
                         <span class="mr-4">Rp.250.000</span>
@@ -157,7 +157,7 @@
                     <div class="product-img">
                       <img
                         class="card-img"
-                        src="frontend/eiser/img/product/inspired-product/olive.jpg" alt="" style = "height:250px;"/>
+                        src="frontend/eiser/img/product/inspired-product/kacer.jpg" alt="" style = "height:250px;"/>
                       <div class="p_icon">
                         <a href="#">
                           <i class="ti-eye"></i>
@@ -172,10 +172,11 @@
                     </div>
                     <div class="product-btm">
                       <a href="#" class="d-block">
-                        <h4>Love Bird Olive</h4>
+                        <h4>Burung kacer</h4>
                       </a>
                       <div class="mt-3">
-                        <span class="mr-4">Rp.200.000</span>
+                        <span class="mr-4">$25.00</span>
+                        <del>$35.00</del>
                       </div>
                     </div>
                   </div>
@@ -186,7 +187,7 @@
                     <div class="product-img">
                       <img
                         class="card-img"
-                        src="frontend/eiser/img/product/inspired-product/ino.jpg"
+                        src="frontend/eiser/img/product/inspired-product/i6.jpg"
                         alt="" style = "height:250px;"
                       />
                       <div class="p_icon">
@@ -203,10 +204,106 @@
                     </div>
                     <div class="product-btm">
                       <a href="#" class="d-block">
-                        <h4>Love Bird Lutino</h4>
+                        <h4>Latest men’s sneaker</h4>
                       </a>
                       <div class="mt-3">
-                        <span class="mr-4">Rp.300.000</span>
+                        <span class="mr-4">$25.00</span>
+                        <del>$35.00</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="single-product">
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="frontend/eiser/img/product/inspired-product/i7.jpg"
+                        alt="" style = "height:250px;"
+                      />
+                      <div class="p_icon">
+                        <a href="#">
+                          <i class="ti-eye"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-heart"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-shopping-cart"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-btm">
+                      <a href="#" class="d-block">
+                        <h4>Latest men’s sneaker</h4>
+                      </a>
+                      <div class="mt-3">
+                        <span class="mr-4">$25.00</span>
+                        <del>$35.00</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="single-product">
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="frontend/eiser/img/product/inspired-product/i8.jpg"
+                        alt="" style = "height:250px;"
+                      />
+                      <div class="p_icon">
+                        <a href="#">
+                          <i class="ti-eye"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-heart"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-shopping-cart"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-btm">
+                      <a href="#" class="d-block">
+                        <h4>Latest men’s sneaker</h4>
+                      </a>
+                      <div class="mt-3">
+                        <span class="mr-4">$25.00</span>
+                        <del>$35.00</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                  <div class="single-product">
+                    <div class="product-img">
+                      <img
+                        class="card-img"
+                        src="frontend/eiser/img/product/inspired-product/i2.jpg"
+                        alt="" style = "height:250px;"
+                      />
+                      <div class="p_icon">
+                        <a href="#">
+                          <i class="ti-eye"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-heart"></i>
+                        </a>
+                        <a href="#">
+                          <i class="ti-shopping-cart"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="product-btm">
+                      <a href="#" class="d-block">
+                        <h4>Latest men’s sneaker</h4>
+                      </a>
+                      <div class="mt-3">
+                        <span class="mr-4">$25.00</span>
                         <del>$35.00</del>
                       </div>
                     </div>
@@ -225,7 +322,7 @@
                 <div class="widgets_inner">
                   <ul class="list">
                     <li>
-                      <a href="category">Love bird</a>
+                      <a href="lovebird">Love bird</a>
                     </li>
                     <li>
                       <a href="kenari">Kenari</a>
