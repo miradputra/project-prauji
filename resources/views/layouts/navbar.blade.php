@@ -27,17 +27,17 @@
                       <li class="nav-item">
                         <a class="nav-link" href="single-product">Product Details</a>
                       </li>
-                      <li class="nav-item">
+                      <!-- <li class="nav-item">
                         <a class="nav-link" href="checkout.html">Product Checkout</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="cart.html">Shopping Cart</a>
-                      </li>
+                      </li> -->
                     </ul>
                   </li>
                   <li class="nav-item submenu dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Blog</a>
+                      aria-expanded="false">Info Lomba</a>
                     <ul class="dropdown-menu">
                       <li class="nav-item">
                         <a class="nav-link" href="blog">Blog</a>
@@ -47,48 +47,8 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="nav-item submenu dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                      aria-expanded="false">Pages</a>
-                    <ul class="dropdown-menu">
-                      <li class="nav-item">
-                        <a class="nav-link" href="tracking.html">Tracking</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="elements.html">Elements</a>
-                      </li>
-                    </ul>
-                  </li>
                   <li class="nav-item">
                     <a class="nav-link" href="contact">Contact</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-5 pr-0">
-                <ul class="nav navbar-nav navbar-right right_nav pull-right">
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-search" aria-hidden="true"></i>
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-shopping-cart"></i>
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-user" aria-hidden="true"></i>
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a href="#" class="icons">
-                      <i class="ti-heart" aria-hidden="true"></i>
-                    </a>
                   </li>
                 </ul>
               </div>

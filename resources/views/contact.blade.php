@@ -1,14 +1,11 @@
 @extends('layouts.frontend')
 @section('content')
-    
       <div class="banner_inner d-flex align-items-center">
         <div class="container">
           <div
-            class="banner_content d-md-flex justify-content-between align-items-center"
-          >
+            class="banner_content d-md-flex justify-content-between align-items-center">
             <div class="mb-3 mb-md-0">
               <h2>Contact Us</h2>
-              <p>Very us move be blessed multiply night</p>
             </div>
             <div class="page_link">
               <a href="index.html">Home</a>
@@ -90,21 +87,21 @@
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-home"></i></span>
             <div class="media-body">
-              <h3>Buttonwood, California.</h3>
-              <p>Rosemead, CA 91770</p>
+              <h3>kp.sayati (Cedok)</h3>
+              <p>No,431</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-tablet"></i></span>
             <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Mon to Fri 9am to 6pm</p>
+              <h3><a href="tel:454545654">+62896-7727-1291</a></h3>
+              <p>Mon to Fri 9am to 8pm</p>
             </div>
           </div>
           <div class="media contact-info">
             <span class="contact-info__icon"><i class="ti-email"></i></span>
             <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
+              <h3><a href="mailto:support@colorlib.com">pojokbird@gmail.com</a></h3>
               <p>Send us your query anytime!</p>
             </div>
           </div>

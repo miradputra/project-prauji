@@ -37,6 +37,27 @@ Route::get('anis', function () {
 Route::get('murai', function () {
     return view('murai');
 });
+Route::get('kenari', function () {
+    return view('kenari');
+});
+Route::get('biji', function () {
+    return view('biji');
+});
+Route::get('voer', function () {
+    return view('voer');
+});
+Route::get('ebod', function () {
+    return view('ebod');
+});
+Route::get('oriq', function () {
+    return view('oriq');
+});
+Route::get('blog', function () {
+    return view('blog');
+});
+Route::get('single-blog', function () {
+    return view('single-blog');
+});
 
 Auth::routes();
 
