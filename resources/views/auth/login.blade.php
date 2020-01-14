@@ -28,7 +28,6 @@
 <!--===============================================================================================-->
 </head>
 <body>
-	
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('images/bg-01.jpg');">
 			<div class="wrap-login100 p-t-30 p-b-50">
@@ -40,8 +39,8 @@
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
                     <div class="col-md-12">
-                                <input placeholder="Email" id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
-
+								<input placeholder="User name" id="email" type="email" class="form-control @error('email') is-invalid @enderror"
+								 name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
                                 @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -49,7 +48,6 @@
                                 @enderror
                             </div>
 					</div>
-
 					<div class="wrap-input100 validate-input" data-validate="Enter password">
                     <div class="col-md-12">
                                 <input id="password" placeholder="Password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" value="Password" required autocomplete="current-password">

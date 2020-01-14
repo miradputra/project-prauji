@@ -15,48 +15,51 @@
 //     return view('welcome');
 // });
 Route::get('index', function () {
-    return view('index');
+    return view('frontend.index');
 });
 
 Route::get('contact', function () {
-    return view('contact');
+    return view('frontend.contact');
 });
 
 Route::get('category', function () {
-    return view('category');
+    return view('frontend.category');
 });
 Route::get('single-product', function () {
-    return view('single-product');
+    return view('frontend.single-product');
 });
 Route::get('kacer', function () {
-    return view('kacer');
+    return view('frontend.kacer');
 });
 Route::get('anis', function () {
-    return view('anis');
+    return view('frontend.anis');
 });
 Route::get('murai', function () {
-    return view('murai');
+    return view('frontend.murai');
 });
 Route::get('kenari', function () {
-    return view('kenari');
+    return view('frontend.kenari');
 });
 Route::get('biji', function () {
-    return view('biji');
+    return view('frontend.biji');
 });
 Route::get('voer', function () {
-    return view('voer');
+    return view('frontend.voer');
 });
 Route::get('ebod', function () {
-    return view('ebod');
+    return view('frontend.ebod');
 });
 Route::get('oriq', function () {
-    return view('oriq');
+    return view('frontend.oriq');
 });
 Route::get('blog', function () {
-    return view('blog');
+    return view('frontend.blog');
 });
 Route::get('single-blog', function () {
-    return view('single-blog');
+    return view('frontend.single-blog');
+});
+Route::get('admin', function () {
+    return view('index');
 });
 
 Auth::routes();
