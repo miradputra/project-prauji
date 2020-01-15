@@ -53,6 +53,7 @@
                 </li>
               </ul>
               <p>
+              <b>Deskripsi :</b><br>
                 Burung Kenari ini Adalah salah satu burung rumahan dan mudah untuk
                 di pelihara,kondisi burung sehat,tidak ada minus,kelamin jantan.
                 <br>Info lebih lanjut <b>hub:089677271291</b>
