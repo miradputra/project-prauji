@@ -8,8 +8,8 @@
               <h2>Contact Us</h2>
             </div>
             <div class="page_link">
-              <a href="index.html">Home</a>
-              <a href="contact.html">Contact Us</a>
+              <a href="index">Home</a>
+              <a href="contact">Contact Us</a>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTipsTable extends Migration
+class CreateProvincesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,9 @@ class CreateTipsTable extends Migration
      */
     public function up()
     {
-        Schema::create('tips', function (Blueprint $table) {
+        Schema::create('provinces', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->unsignedBigInteger('id_kategori');
-            $table->String('foto');
-            $table->String('deskripsi');
-            $table->foreign('id_kategori')->references('id')->on('categories');
+            $table->string('name');
             $table->timestamps();
         });
     }
@@ -30,6 +27,6 @@ class CreateTipsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tips');
+        Schema::dropIfExists('provinces');
     }
 }

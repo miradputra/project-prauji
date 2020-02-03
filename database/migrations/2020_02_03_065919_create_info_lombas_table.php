@@ -15,8 +15,8 @@ class CreateInfoLombasTable extends Migration
     {
         Schema::create('info_lombas', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->String('foto');
-            $table->String('deskripsi');
+            $table->string('image');
+            $table->string('descripsi');
             $table->timestamps();
         });
     }
