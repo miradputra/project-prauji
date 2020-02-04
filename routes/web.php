@@ -64,6 +64,9 @@ Route::get('single-blog', function () {
 Route::get('admin', function () {
     return view('index');
 });
+Route::get('users', function () {
+    return view('users.index');
+});
 
 Auth::routes();
 

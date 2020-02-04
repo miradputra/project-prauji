@@ -21,7 +21,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="main_title">
-            <h2><span>Recommended medicinal products</span></h2>
+            <h2><span>Produk obat yang sangat di sarankan</span></h2>
             <p>sangat di sarankan untuk para kicau mania</p>
           </div>
         </div>
@@ -114,7 +114,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12">
           <div class="main_title">
-            <h2><span>the most popular bird in the contest area</span></h2>
+            <h2><span>burung yang paling populer di area kontes</span></h2>
             <p>mudah untuk di pelihara</p>
           </div>
         </div>
@@ -136,7 +136,7 @@
                 <h4>Love Bird Pastel ijo</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.150.000</span>
+                <!-- <span class="mr-4">Rp.150.000</span> -->
               </div>
             </div>
           </div>
@@ -163,7 +163,7 @@
                 <h4>Love Bird Biru Cobal</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.200.000</span>
+                <!-- <span class="mr-4">Rp.200.000</span> -->
               </div>
             </div>
           </div>
@@ -190,7 +190,7 @@
                 <h4>Love Bird Batman</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.300.000</span>
+                <!-- <span class="mr-4">Rp.300.000</span> -->
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@
                 <h4>Love Bird Hijau Olive</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.175.000</span>
+                <!-- <span class="mr-4">Rp.175.000</span> -->
               </div>
             </div>
           </div>
@@ -244,7 +244,7 @@
                 <h4>Burung Kacer</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.350.000</span>
+                <!-- <span class="mr-4">Rp.350.000</span> -->
               </div>
             </div>
           </div>
@@ -271,7 +271,7 @@
                 <h4>Burung Kenari</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">Rp.250.000</span>
+                <!-- <span class="mr-4">Rp.250.000</span> -->
               </div>
             </div>
           </div>
@@ -298,7 +298,7 @@
                 <h4>Burung Murai Batu</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">$1300.000</span>
+                <!-- <span class="mr-4">$1300.000</span> -->
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@
                 <h4>Burung Jalak Suren</h4>
               </a>
               <div class="mt-3">
-                <span class="mr-4">450.000</span>
+                <!-- <span class="mr-4">450.000</span> -->
               </div>
             </div>
           </div>

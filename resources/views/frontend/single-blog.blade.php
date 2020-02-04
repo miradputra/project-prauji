@@ -41,7 +41,7 @@
                       </article>
                   </div>
               </div>
-              <!-- <div class="col-lg-4">
+              <div class="col-lg-4">
                   <div class="blog_right_sidebar">
                       <aside class="single_sidebar_widget search_widget">
                           <form action="#">
@@ -166,7 +166,7 @@
                           </ul>
                       </aside>
                   </div>
-              </div> -->
+              </div>
           </div>
       </div>
   </section>
