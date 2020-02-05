@@ -1,9 +1,5 @@
 @extends('layouts.backend')
 ​
-@section('title')
-    <title>Manajemen Role</title>
-@endsection
-​
 @section('content')
     <div class="content-wrapper">
         <div class="content-header">

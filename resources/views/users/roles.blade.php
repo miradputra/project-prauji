@@ -1,4 +1,4 @@
-@extends('layouts.index')
+@extends('layouts.backend')
 ​
 @section('title')
     <title>Set Role</title>

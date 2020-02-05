@@ -17,6 +17,7 @@ class CreateDistrictsTable extends Migration
             $table->bigIncrements('id');
             $table->unsignedBigInteger('provice_id');
             $table->unsignedBigInteger('city_id');
+            $table->foreign('city_id')->references('id')->on('cities');
             $table->string('name');
             $table->timestamps();
         });

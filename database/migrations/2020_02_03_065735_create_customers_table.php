@@ -20,6 +20,7 @@ class CreateCustomersTable extends Migration
             $table->string('phone_number');
             $table->string('address');
             $table->unsignedBigInteger('district_id');
+            $table->foreign('district_id')->references('id')->on('districts');
             $table->boolean('status')->default(false);
             $table->timestamps();
         });

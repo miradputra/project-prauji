@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\User;
+use App\Role;
 
 class UserSeeder extends Seeder
 {
@@ -12,32 +13,18 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+        // role admin
+        Role::create([
+            'name'=>'admin'
+        ]);
+          //role member
+         Role::create([
+        'name'=>'member'
+    ]);
     User::create([
-        'name' => 'admin',
-        'email' => 'admin@gmail.com',
-        'password' => bcrypt('lupalagi'),
-    ]);
-    Role::create([
-        'name' => 'admin',
-        'guard_name' => 'web'
-    ]);
-    DB::table('model_has_roles')->insert([
-        'role_id' => '1',
-        'model_type' => 'App\User',
-        'model_id' => '1'
-    ]); User::create([
         'name' => 'admin',
         'email' => 'admin@gmail.com',
         'password' => bcrypt('rahasia123'),
     ]);
-    Role::create([
-        'name' => 'admin',
-        'guard_name' => 'web'
-    ]);
-    DB::table('model_has_roles')->insert([
-        'role_id' => '1',
-        'model_type' => 'App\User',
-        'model_id' => '1'
-    ]);
-    }
+  } 
 }

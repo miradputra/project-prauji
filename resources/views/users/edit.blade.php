@@ -1,4 +1,4 @@
-@extends('layouts.index')
+@extends('layouts.backend')
 ​
 @section('title')
     <title>Edit Users</title>
@@ -77,10 +77,7 @@
                             <div class="form-group">
                                 <button class="btn btn-primary btn-sm"><i class="fa fa-send"></i> Update</button>
                             </div>
-                        </form>
-                        @slot('footer')
-                        @endslot
-                    {{-- @endcard --}}
+                        </form>                   
                 </div>
             </div>
         </div>

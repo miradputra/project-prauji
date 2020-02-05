@@ -1,9 +1,4 @@
-@extends('layouts.index')
-​
-@section('title')
-    <title>Role Permission</title>
-@endsection
-​
+@extends('layouts.backend')
 @section('css')
     <style type="text/css">
         .tab-pane{

@@ -1,9 +1,4 @@
 @extends('layouts.backend')
-​
-@section('title')
-    <title>Add New Users</title>
-@endsection
-​
 @section('content')
     <div class="content-wrapper">
         <div class="content-header">
@@ -67,8 +62,6 @@
                                     </button>
                                 </div>
                             </form>
-                            @slot('footer')
-                            @endslot
                         </div>
                     </div>
                 </div>
