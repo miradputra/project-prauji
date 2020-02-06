@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Laratrust\LaratrustFacade as Laratrust;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        if(Laratrush::hasRole('admin')) {
+            return redirect('/admin');
+        }
+        if(Laratrust::hasRole('member')) {
+            return redirect('/index');
+        }
+        // return view('home');
     }
 }

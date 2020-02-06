@@ -5,14 +5,12 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
-use Spatie\Permission\Traits\HasRoles;
 use Laratrust\Traits\LaratrustUserTrait;
 
 
 class User extends Authenticatable
 {
     use LaratrustUserTrait;
-    use Notifiable,HasRoles;
 
     /**
      * The attributes that are mass assignable.
@@ -20,7 +18,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','avatar',
+        'name', 'email', 'password',
     ];
 
     /**

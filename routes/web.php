@@ -61,21 +61,20 @@ Route::get('blog', function () {
 Route::get('single-blog', function () {
     return view('frontend.single-blog');
 });
-Route::get('admin', function () {
-    return view('index');
-});
-Route::get('coba', function () {
-    return view('users.coba');
-});
+Route::resource('category', 'ControllerCategory');
+
+
 
 
 Auth::routes();
 Route::group(['middleware' => ['auth', 'role:admin']], function () {
-    
 });
 Route::resource('/role', 'RoleController')->except([
     'create', 'show', 'edit', 'update'
 ]);
+Route::get('admin', function () {
+    return view('index');
+});
 
 Route::resource('/users', 'UserController')->except([
     'show'
@@ -85,5 +84,12 @@ Route::put('/users/roles/{id}', 'UserController@setRole')->name('users.set_role'
 Route::post('/users/permission', 'UserController@addPermission')->name('users.add_permission');
 Route::get('/users/role-permission', 'UserController@rolePermission')->name('users.roles_permission');
 Route::put('/users/permission/{role}', 'UserController@setRolePermission')->name('users.setRolePermission');
+Route::resource('/category', 'ControllerCategory')->except([
+    'show'
+]);
+// Route::get('/category', 'ControllerCategory@index');
+//         Route::post('/category-store', 'ControllerCategory@store');
+//         Route::get('/category/{id}/edit', 'ControllerCategory@edit');
+//         Route::delete('/category-store/{id}', 'ControllerCategory@destroy');
 
 Route::get('a/home', 'HomeController@index')->name('home');

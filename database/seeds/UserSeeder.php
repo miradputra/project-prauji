@@ -15,16 +15,29 @@ class UserSeeder extends Seeder
     {
         // role admin
         Role::create([
-            'name'=>'admin'
+            'name'=>'admin',
+            'display_name'=>'admin'
+
         ]);
           //role member
-         Role::create([
-        'name'=>'member'
+        Role::create([
+            'name'=>'member',
+            'display_name'=>'member'
     ]);
-    User::create([
-        'name' => 'admin',
-        'email' => 'admin@gmail.com',
-        'password' => bcrypt('rahasia123'),
-    ]);
+
+    $adminUser = new User;
+
+    $adminUser->name = "admin";
+    $adminUser->email ="admin@gmail.com";
+    $adminUser->password= bcrypt("rahasia123");
+    $adminUser->save();
+    $adminUser->attachRole('admin');
+
+    $memberUser = new User;
+    $memberUser->name = "member";
+    $memberUser->email ="member@gmail.com";
+    $memberUser->password= bcrypt("rahasia123");
+    $memberUser->save();
+    $memberUser->attachRole('member');
   } 
 }
